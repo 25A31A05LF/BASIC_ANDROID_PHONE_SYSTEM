@@ -1,0 +1,58 @@
+🔹 Step 1: Start the program
+
+🔹 Step 2: Initialize variables
+Set head = NULL (Contacts)
+Set front = rear = -1 (Message Queue)
+Set top = -1 (Call Stack)
+
+🔹 Step 3: Display Menu
+Add Contact
+View Contacts
+Send Message
+View Messages
+Delete Message
+Make Call
+Call History
+Delete Last Call
+Exit
+
+🔹 Step 4: Read user choice
+
+🔹 Step 5: Perform operation using switch-case
+--➤ Case 1: Add Contact
+Input name and number
+Create new node
+Insert at beginning of linked list
+--➤ Case 2: View Contacts
+Traverse linked list
+Display all contacts
+--➤ Case 3: Send Message
+Input message
+Check if queue is full
+Insert message into queue (rear++)
+--➤ Case 4: View Messages
+Check if queue is empty
+Display messages from front to rear
+--➤ Case 5: Delete Message
+Check if queue is empty
+Remove message from front (front++)
+--➤ Case 6: Make Call
+Input contact name
+Push name into stack (top++)
+--➤ Case 7: Call History
+Check if stack is empty
+Display calls from top to bottom
+--➤ Case 8: Delete Last Call
+Check if stack is empty
+Pop last call (top--)
+--➤ Case 9: Exit
+Exit loop
+--➤ Default
+Display "Invalid Choice"
+
+🔹 Step 6: Repeat Steps 3–5 until user selects Exit
+
+🔹 Step 7: Free memory
+Delete all nodes in linked list
+
+🔹 Step 8: Stop the program
