@@ -1,0 +1,46 @@
+🔹 1. System Design
+1.The program is designed using a modular approach
+2.Divided into three main modules:
+3.Contacts (Linked List)
+4.Messages (Queue)
+5.Call History (Stack)
+
+🔹 2. Data Structure Implementation
+-->📞 Contacts → Linked List
+1.Dynamic memory allocation using new
+2.Each contact stored as a node
+3.Allows flexible addition of contacts
+-->💬 Messages → Queue (FIFO)
+1.Implemented using array
+2.Messages are stored in order
+3.First message is deleted first
+-->📱 Call History → Stack (LIFO)
+1.Implemented using array
+2.Last call stored at top
+3.Last call deleted first
+
+🔹 3. User Interaction
+1.Menu-driven system
+2.User selects options (1–9)
+3.Input taken using cin and getline()
+
+🔹 4. Processing Logic
+Uses:
+1.Functions for each operation
+2.Switch-case for menu control
+3.Conditions (if-else) for validations
+
+🔹 5. Memory Management
+1.Contacts use dynamic memory
+2.freeContacts() function deletes allocated memory
+3.Prevents memory leakage
+
+🔹 6. Program Flow
+1.Start program
+2.Display menu
+3.Read user choice
+4.Call respective function
+5.Perform operation
+6.Display result
+7.Repeat until Exit
+8.Free memory and stop
