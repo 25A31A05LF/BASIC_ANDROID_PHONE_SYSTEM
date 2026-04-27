@@ -1,0 +1,61 @@
+┌───────────────┐
+            │     START     │
+            └──────┬────────┘
+                   │
+                   ▼
+      ┌────────────────────────────┐
+      │ Initialize head, front,    │
+      │ rear, top                 │
+      └──────────┬─────────────────┘
+                 │
+                 ▼
+      ┌────────────────────────────┐
+      │ Display Menu (1–9 Options) │
+      └──────────┬─────────────────┘
+                 │
+                 ▼
+        ┌──────────────────────┐
+        │   Read User Choice   │
+        └──────────┬───────────┘
+                   │
+                   ▼
+        ┌──────────────────────────────┐
+        │   Check Choice (Switch)      │
+        └───┬────┬────┬────┬────┬─────┬────┬────┬────┐
+            │    │    │    │    │     │    │    │    │
+            ▼    ▼    ▼    ▼    ▼     ▼    ▼    ▼    ▼
+          Add  View Send View Delete Call History Delete Exit
+         Contact Contacts Msg Msg Msg   Call        Last
+
+            │    │    │    │    │     │    │    │    │
+            ▼    ▼    ▼    ▼    ▼     ▼    ▼    ▼    ▼
+     Input  Traverse Input Display Remove Push Display Pop   STOP
+     Data   List     Msg   Queue   Msg   Stack Stack   Stack
+
+            │    │    │    │    │     │    │    │
+            └────┴────┴────┴────┴─────┴────┴────┘
+                          │
+                          ▼
+                ┌─────────────────┐
+                │ Repeat Menu ?   │
+                └──────┬──────────┘
+                       │ Yes
+                       ▼
+              (Back to Menu Display)
+
+                       │ No (Exit)
+                       ▼
+              ┌──────────────────┐
+              │ Free Memory      │
+              └──────┬───────────┘
+                     │
+                     ▼
+              ┌───────────────┐
+              │     STOP      │
+              └───────────────┘
+
+
+---->🔷 Oval → Start/Stop
+----> ▭ Rectangle → Process
+---->◇ Diamond → Decision
+---->➡️ Arrows → Flow
