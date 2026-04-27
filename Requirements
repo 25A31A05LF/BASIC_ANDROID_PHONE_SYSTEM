@@ -1,0 +1,46 @@
+1. Functional Requirements
+(What the system should do)
+-->📞 Contacts Module (Linked List)
+1.Add new contact (name & number)
+2.Display all contacts
+3.Store contacts dynamically
+-->💬 Messages Module (Queue)
+1.Send/store messages
+2.View all messages in order (FIFO)
+3.Delete oldest message
+-->📱 Call History Module (Stack)
+1.Store call history
+2.Display recent calls (LIFO)
+3.Delete last call
+-->🎛️ Main System
+1.Menu-driven interface
+2.Perform operations based on user choice
+3.Exit option
+
+ 2. Non-Functional Requirements
+(How the system should behave)
+1.Simple and easy-to-use interface
+2.Fast execution
+3.Efficient memory usage (dynamic allocation for contacts)
+4.Organized code using functions and data structures
+
+ 3. Hardware Requirements
+1.Computer / Laptop
+2.Minimum 2GB RAM
+3.Keyboard for input
+
+ 4. Software Requirements
+1.C++ Compiler (GCC / Code::Blocks / Turbo C++)
+2.Operating System (Windows / Linux / Mac)
+
+ 5. Input Requirements
+1.Contact name and number
+2.Message text
+3.Call name
+4.Menu choice (1–9)
+
+ 6. Output Requirements
+1.Display contact list
+2.Show messages
+3.Show call history
+4.Confirmation messages (Added / Deleted / Calling)
